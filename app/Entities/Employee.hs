@@ -6,7 +6,7 @@
 {-# LANGUAGE TemplateHaskell            #-}
 {-# LANGUAGE TypeFamilies               #-}
 
-module Entities where
+module Entities.Employee where
 
 import Database.Persist.Types
 import Database.Persist.TH

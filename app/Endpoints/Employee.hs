@@ -2,9 +2,9 @@
 {-# LANGUAGE ScopedTypeVariables        #-}
 {-# LANGUAGE RecordWildCards            #-}
 
-module Endpoints where
+module Endpoints.Employee where
 
-import Entities
+import Entities.Employee
 
 import Control.Monad.IO.Class (liftIO)
 import Data.Monoid (mconcat)
